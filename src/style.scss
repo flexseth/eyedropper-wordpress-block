@@ -6,7 +6,12 @@
  */
 
 .wp-block-create-block-eyedropper-block {
-	background-color: #21759b;
 	color: #fff;
 	padding: 2px;
+	background: #000;
+}
+
+#result {
+	margin-left: .5rem;
+	padding: .5rem;
 }

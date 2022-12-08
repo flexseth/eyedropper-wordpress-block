@@ -29,13 +29,42 @@ import './editor.scss';
  *
  * @return {WPElement} Element to render.
  */
+
+import { TextareaControl, Button } from '@wordpress/components';
+import samplecolor from './samplecolor';
+
 export default function Edit() {
+
 	return (
+
+
 		<p { ...useBlockProps() }>
-			{ __(
-				'Eyedropper Block – hello from the editor!',
-				'eyedropper-block'
-			) }
+			
+			{/* <button id="sample-color">Open the eyedropper</button>  */}
+			
+
+				{/* Eyedropper button */}
+				<Button 
+					id="sample-color"
+					variant="primary"
+					onClick={samplecolor}>
+						Click me!
+				</Button>
+
+				<span id="result">
+					{/* Result shoes up here */}
+				</span>
+
+
+
+				{/* <TextareaControl
+					label="Text"
+					help="Enter some text"
+					value={ text }
+					onChange={ ( value ) => setText( value ) }
+        		/> */}
+
+
 		</p>
 	);
 }
