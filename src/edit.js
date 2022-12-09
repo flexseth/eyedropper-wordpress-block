@@ -38,7 +38,7 @@ import { TextareaControl, Button } from '@wordpress/components';
 import samplecolor from './samplecolor';
 
 export default function Edit() {
-
+// SEE: https://pqina.nl/blog/use-the-javascript-eye-dropper-api-to-select-colors-on-the-web/
 	return (
 		<p { ...useBlockProps() }>		
 			{/* Eyedropper button */}
