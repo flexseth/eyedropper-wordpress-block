@@ -40,23 +40,18 @@ import samplecolor from './samplecolor';
 export default function Edit() {
 
 	return (
+		<p { ...useBlockProps() }>		
+			{/* Eyedropper button */}
+			<Button 
+				id="sample-color"
+				variant="primary"
+				onClick={samplecolor}>
+					Click me!
+			</Button>
 
-		<p { ...useBlockProps() }>
-			
-			{/* <button id="sample-color">Open the eyedropper</button>  */}
-			
-
-				{/* Eyedropper button */}
-				<Button 
-					id="sample-color"
-					variant="primary"
-					onClick={samplecolor}>
-						Click me!
-				</Button>
-
-				<span id="result">
-					{/* Result shoes up here */}
-				</span>
+			<span id="result">
+				{/* Result shoes up here */}
+			</span>
 		</p>
 	);
 }
