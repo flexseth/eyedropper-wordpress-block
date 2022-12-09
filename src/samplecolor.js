@@ -1,5 +1,5 @@
 let samplecolor = () => {
-    document.getElementById('sample-color').addEventListener('click', () => {
+    document.getElementById('eyedropper-btn').addEventListener('click', () => {
         const resultElement = document.getElementById('result');
       
         if (!window.EyeDropper) {

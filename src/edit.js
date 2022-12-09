@@ -30,6 +30,10 @@ import './editor.scss';
  * @return {WPElement} Element to render.
  */
 
+/**
+ * EyeDropper API: @see https://developer.mozilla.org/en-US/docs/Web/API/EyeDropper
+ */
+
 import { TextareaControl, Button } from '@wordpress/components';
 import samplecolor from './samplecolor';
 
