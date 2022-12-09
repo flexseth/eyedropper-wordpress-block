@@ -41,7 +41,6 @@ export default function Edit() {
 
 	return (
 
-
 		<p { ...useBlockProps() }>
 			
 			{/* <button id="sample-color">Open the eyedropper</button>  */}
@@ -58,17 +57,6 @@ export default function Edit() {
 				<span id="result">
 					{/* Result shoes up here */}
 				</span>
-
-
-
-				{/* <TextareaControl
-					label="Text"
-					help="Enter some text"
-					value={ text }
-					onChange={ ( value ) => setText( value ) }
-        		/> */}
-
-
 		</p>
 	);
 }
