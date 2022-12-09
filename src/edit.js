@@ -43,7 +43,7 @@ export default function Edit() {
 		<p { ...useBlockProps() }>		
 			{/* Eyedropper button */}
 			<Button 
-				id="sample-color"
+				id="eyedropper-btn"
 				variant="primary"
 				onClick={samplecolor}>
 					Click me!
