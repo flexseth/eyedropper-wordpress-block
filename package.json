@@ -16,5 +16,18 @@
 	},
 	"devDependencies": {
 		"@wordpress/scripts": "^27.8.0"
+	},
+	"dependencies": {
+		"axios": "~1.7.4",
+		"body-parser": "~1.20.3",
+		"braces": "~3.0.3",
+		"cookie": "^0.7.2",
+		"express": "~4.20.0",
+		"http-proxy-middleware": "~2.0.8",
+		"send": "^0.19.1",
+		"serve-static": "~1.16.0",
+		"tar-fs": "~3.0.8",
+		"webpack": "~5.94.0",
+		"ws": "~8.17.1"
 	}
 }
